@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mon CV avec portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <div class="container-fluid">
+                    <img src="img/Morej W1.jpg"  class="photo" alt="Morej" title="Photo rigolote Morej">
+                
+                    <section class="entete">
+                        <h1>HEBRARD Jérôme</h1>
+                        <h2>Poste recherché : Développeur web/mobile</h2>
+                    </section>
+                </div>
+            </header>
+    
+            <main>
+                <div class="container-fluid">
+                <div class="row">
+                    <section class="col-xs-12 col-md-4">
+                        <h3>Parcours avant la formation Simplonline</h3>
+                        <p>A la sortie d'un bac S en 2006, je me suis dirigé vers un IUT informatique pendant 1 an, puis j'ai changé complètement de domaine en continuant mes études par une license de Biologie, option Génétique. Avant d'obtenir cette dernière j'ai fait de multiple tentatives pour rentrer dans la Police Scientifique sans succès. Toujours passionné d'informatique je me suis donc redirigé vers le développement web depuis novembre 2015.</p>
+                    </section>
+                
+                    <section class="col-xs-12 col-md-4">
+                            <h3>Mes ambitions</h3>
+                            <p>Je souhaite apprendre le développement web/mobile, apprendre divers langages informatiques et en faire mon métier pour participer activement à la vie d'une entreprise, ou bien me lancer en tant qu'auto-entrepreneur.</p>
+                    </section>
+                    
+                    <section class="col-xs-12 col-md-4">
+                            <h3>Expérience professionnelle</h3>
+                                <ul>
+                                    <li>Inventoriste</li>
+                                    <li>Magasinier</li>
+                                    <li>Préparateur de colis</li>
+                                    <li>Pas d'expérience WEB</li>
+                                </ul>
+                    </section>
+                </div>
+                </div>
+                
+                
+        <div class="container">
+
+            <h2>Mon portfolio</h2>
+            <!--data-filter permet de filtrer les vignettes par catégorie-->
+            <ul id="filters" class="clearfix row">
+                <li><span class="filter active" data-filter="cat1 cat2 cat3 cat4">Toutes mes catégories</span></li>
+                <li><span class="filter" data-filter="cat1">HTML/CSS</span></li>
+                <li><span class="filter" data-filter="cat2">Javascript</span></li>
+                <li><span class="filter" data-filter="cat3">Bootstrap</span></li>
+                <li><span class="filter" data-filter="cat4">Ruby</span></li>
+            </ul>
+
+            <div id="portfoliolist"> <!--La div qui contient les vignettes des projets-->
+                
+                <div class="portfolio cat2" data-cat="cat2">
+                    <div class="portfolio-wrapper">             
+                        <img src="img/portfolio/js2.png" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Annuaire</a>
+                                <span class="text-category">Javascript</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>              
+
+                <div class="portfolio cat1" data-cat="cat1">
+                    <div class="portfolio-wrapper">         
+                        <img src="img/portfolio/cv.png" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Mon CV HTML/CSS</a>
+                                <span class="text-category">HTML/CSS</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>      
+                            
+                
+                <div class="portfolio cat4" data-cat="cat4">
+                    <div class="portfolio-wrapper">         
+                        <img src="img/portfolio/OFFJS.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">API Open Food Facts</a>
+                                <span class="text-category">Ruby</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>  
+                            
+                <div class="portfolio cat1" data-cat="cat1">
+                    <div class="portfolio-wrapper">
+                        <img src="img/portfolio/htmlcss.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Apprentissage HTML/CSS</a>
+                                <span class="text-category">HTML/CSS</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>          
+                
+
+                <div class="portfolio cat2" data-cat="cat2">
+                    <div class="portfolio-wrapper">         
+                        <img src="img/portfolio/js.png" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Titre de mon projet en Javascript</a>
+                                <span class="text-category">Javascript</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>                                                                                                                                                          
+                
+                <div class="portfolio cat1" data-cat="cat1">
+                    <div class="portfolio-wrapper">         
+                        <img src="img/portfolio/maquettehtmlcss.png" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Page placement div</a>
+                                <span class="text-category">HTML/CSS</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>                                                      
+
+                <div class="portfolio cat3" data-cat="cat3">
+                    <div class="portfolio-wrapper">         
+                        <img src="img/portfolio/bootstrap.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Exercice utilisation Bootstrap</a>
+                                <span class="text-category">Bootstrap</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="portfolio cat4" data-cat="cat4">
+                    <div class="portfolio-wrapper">         
+                        <img src="img/portfolio/ruby.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Titre de mon projet avec Ruby</a>
+                                <span class="text-category">Ruby</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div><!-- container -->
+                
+            </main>
+    
+            <footer>
+                <div class="container-fluid">
+                    <div class="row">
+                    <div id="map" class="col-xs-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.203772797317!2d5.388329415889521!3d49.158740287465214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47eb1c007ee7eb35%3A0x3fbee1f725aec6a!2s21+Rue+des+Minimes%2C+55100+Verdun!5e0!3m2!1sfr!2sfr!4v1449061119983" width=100% frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div id="contact" class="col-xs-6">
+                        <p>Mes coordonnées : 06.xx.xx.xx.xx <a class="mail" href="morej03@gmail.com">M@il</a> </p>
+                    </div>
+                    </div>
+                </div>
+            </footer>
+        </div>     
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script> <!--lien vers le fichier jquery pour l'effet "hover"-->
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script> <!--lien vers fichier JQuery pour l'effet filtre-->
+    <script type="text/javascript" src="js/fonction.js"></script><!--lien vers les fonctions js-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
