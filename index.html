@@ -193,8 +193,14 @@
                         <p>Mes coordonnées : 06.xx.xx.xx.xx <a class="mail" href="morej03@gmail.com">M@il</a> </p>
                     </div>
                     </div>
-                    <div class="formulaire">
-                        
+                    <div class="form">
+                        <form method="post" action="traitement.php">
+                            <p><label for="nom">NOM :</label><input type="text" name="nom" id="nom" placeholder="NOM" /></p>
+                            <p><label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Prénom" /></p>
+                            <p><label for="mail">Votre adresse mail :</label><input type="text" name="mail" id="mail" placeholder="adresse@mail.com" /></p>
+                            <p><label for="message">Votre message :</label><textarea id="message" name="message"></textarea></p>
+                        </form>
+
                     </div>
                 </div>
             </footer>
