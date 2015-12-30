@@ -193,12 +193,33 @@
                         <p>Mes coordonnées : 06.xx.xx.xx.xx <a class="mail" href="morej03@gmail.com">M@il</a> </p>
                     </div>
                     </div>
-                    <div class="form">
+                    
+                    <div class="formulaire">
+                        <h3>Ecrivez-moi</h3>
                         <form method="post" action="traitement.php">
-                            <p><label for="nom">NOM :</label><input type="text" name="nom" id="nom" placeholder="NOM" /></p>
-                            <p><label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Prénom" /></p>
-                            <p><label for="mail">Votre adresse mail :</label><input type="text" name="mail" id="mail" placeholder="adresse@mail.com" /></p>
-                            <p><label for="message">Votre message :</label><textarea id="message" name="message"></textarea></p>
+                            <fieldset>
+                                <legend>Vos coordonnées</legend>
+                                    <p><label for="nom">NOM : </label></p>
+                                    <p><input type="text" name="nom" id="nom" placeholder="NOM" /></p>
+                                
+                                
+                                    <p><label for="prenom">Prénom : </label></p>
+                                    <p><input type="text" name="prenom" id="prenom" placeholder="Prénom" /></p>
+                               
+                                
+                                    <p><label for="mail">Email : </label></p>
+                                    <p><input type="email" name="mail" id="mail" placeholder="adresse@mail.com" /></p>
+                            </fieldset>   
+                                
+                            <fieldset>
+                                <legend>Message</legend>
+                                    <p><label for="message">Votre message : </label></p>
+                                    <p><textarea id="message" name="message" placeholder="Votre message"></textarea></p>
+                                
+                                
+                                    <input type="submit" value="Envoyer" id="envoyer"/>
+                            </fieldset>   
+                                
                         </form>
 
                     </div>
